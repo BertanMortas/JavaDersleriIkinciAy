@@ -25,6 +25,10 @@ public class Engine
         this.fuelType = fuelType;
     }
 
+    public Engine(FuelType fuelType) {
+        this.fuelType = fuelType;
+
+    }
 
     public void setEnginePower(String enginePower) {
         this.enginePower = enginePower;
